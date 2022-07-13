@@ -1,0 +1,55 @@
+.chartContainer {
+    width: 100px;
+    height: 100px;
+    max-width: 120px;
+  }
+  .parent {
+    height: 100px !important;
+    overflow: "hidden";
+  }
+
+  .leftimage_container{
+    text-align: left;
+  }
+
+  .rightcard_container{
+    margin-left: -100px;
+  }
+
+  .dashboard_main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  @media screen and (max-width:800px){
+      .leftimage_container{
+        text-align: center;
+      }
+      .rightcard_container{
+        margin-left: 0px ;
+      }
+      .dashboard_main{
+        justify-content: center;
+      }
+      .DashboardLiks{
+        display: none;
+      }
+
+  }
+
+  @media screen and (max-width:1025px){
+    .leftimage_container{
+      text-align: center;
+    }
+    .rightcard_container{
+      margin-left: 0px ;
+    }
+    .dashboard_main{
+      justify-content: center;
+    }
+
+}
+  

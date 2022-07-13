@@ -1,0 +1,42 @@
+.sideTabs:hover svg{ 
+    background-color: #133d58 !important;
+    color: #f0b11b !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.sidebar_tabs{
+  display: flex;
+  justify-content: flex-start;
+  gap:10px;
+  align-items: center;
+}
+@media only screen and (max-width: 1440px) {
+    .sideTabs p {
+      display: none;
+    }
+    .sideTabs{
+      background-color: transparent;
+      justify-content: center;
+    }
+    
+    .sidebar_tabs{
+      background-color: transparent;
+      justify-content: center;
+    }
+    .sidenavBtn{
+        display: none;
+    }
+  }
+  .sideTabs svg{
+    background-color: #133d58 !important;
+    color: #f0b11b !important;
+  }
+
+  @media screen and (max-width:800px) {
+    .DashboardSideNav{
+      display: none;
+    }
+
+  }

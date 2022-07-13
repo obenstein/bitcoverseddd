@@ -1,0 +1,64 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+    background-color: #F2F2F2;
+    box-shadow:  0px 0px 15px  10px #F2F2F2;
+    -moz-box-shadow: 0px 0px 15px  10px #F2F2F2;
+    -webkit-box-shadow: 0px 0px 15px  10px #F2F2F2;
+    -o-box-shadow: 0px 0px 15px  10px #F2F2F2;
+}
+
+.heading {
+    color: #143d59;
+}
+
+.projects .container {
+    display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+    .projects .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projects .container img {
+        width: 40% !important;
+    }
+    
+    .projects .container .discription {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .projects .container .discription {
+        text-align: center;
+    }
+}
+
+.projects .container img {
+    width: 40%;
+}
+
+.projects .container .discription {
+    width: 60%;
+    display: flex;
+    font-family: 'Poppins', sans-serif; 
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 15px 30px 15px;
+}
+
+.projects .container .discription h1 {
+    color: #143d59;
+    line-height: 1.5;
+}
+
+.projects .container .discription p {
+    color: #7e7e7e;
+    font-size: 14px;
+    margin-top: 10px;
+}

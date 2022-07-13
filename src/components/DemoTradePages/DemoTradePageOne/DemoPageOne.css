@@ -1,0 +1,23 @@
+.theBtn{
+    background-color: #e8e0e0;
+    color: #b6b4b5;
+    padding: 7px;
+    border: 2px solid ;
+}
+.theActiveBtn{
+    padding: 7px;
+    border: 1px ;
+    border: 1px solid;
+    box-shadow: 5px 5px 5px 1px #7e7e7e;
+    transition: transform .2s;
+    transform: scale(1.01);
+
+}
+
+.BtnDiv .underlineDiv{
+        margin-left: 0px !important;
+}
+.favBtnActive{
+    color: #b6b4b5;
+
+}

@@ -1,0 +1,84 @@
+.token {
+    background-color: #F2F2F2;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0px 3px 15px  10px #F2F2F2;
+    -moz-box-shadow: 0px 3px 15px  10px #F2F2F2;
+    -webkit-box-shadow: 0px 3px 15px  10px #F2F2F2;
+    -o-box-shadow: 0px 3px 15px  10px #F2F2F2;
+}
+
+.token .container {
+    text-align: center;
+}
+
+.token .container h1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #133d59;
+    margin-bottom: 20px;
+}
+
+.token .container .bottom {
+    display: flex;
+    align-items: center;
+}
+
+.token .container .bottom img {
+    width: 65%;
+}
+
+.token .container .bottom .discription  {
+    width: 45%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.token .container .bottom .discription p {
+    color: #7e7e7e;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.token .container .bottom .discription button {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 700;
+    background-color: #f2b31b;
+}
+
+.token .container .bottom .discription p span {
+    color : #133d59;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 925px) {
+    .token .container .bottom {
+       flex-direction: column-reverse;
+    }
+    
+    .token .container .bottom img {
+        width: 80%;
+        margin-top: 30px;
+    }
+    
+    .token .container .bottom .discription  {
+        width: 80%;
+    }
+}
+.buynftBtn{
+    transition: transform .2s; /* Animation */
+
+}
+.buynftBtn:hover{
+transform: scale(1.1);}
+

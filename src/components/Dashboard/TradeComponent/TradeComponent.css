@@ -1,0 +1,8 @@
+p{
+    color: #133d58;
+}
+@media screen and (max-width:800px) {
+.TradeLinks{
+    display: none;
+}
+}

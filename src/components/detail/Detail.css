@@ -1,0 +1,5 @@
+.theAppImg{
+    transition: transform .2s; /* Animation */
+}
+.theAppImg:hover{
+transform: scale(1.2);}

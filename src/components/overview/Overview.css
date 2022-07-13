@@ -1,0 +1,17 @@
+.SectionOne{
+    background-color: #F2F2F2;
+    padding: 40px 0 40px 0;
+    box-shadow:  0px 0px 15px  10px #F2F2F2;
+    -moz-box-shadow: 0px 0px 15px  10px #F2F2F2;
+    -webkit-box-shadow: 0px 0px 15px  10px #F2F2F2;
+    -o-box-shadow: 0px 0px 15px  10px #F2F2F2;
+}
+.ovImg{
+    animation: mymove 8.5s infinite;
+    
+}
+
+@keyframes mymove {
+    from {transform: rotateY(0deg)}
+    to {transform: rotateY(360deg)}
+  }

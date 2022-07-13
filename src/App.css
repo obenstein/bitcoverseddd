@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+
+/*General CSS*/
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list::before {
+  content: "\2022";
+  color: #143d59;
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-block; 
+  width: 1em;
+}
+
+.text-small {
+    font-size: 12px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #7e7e7e;
+}
+
+.container {
+    width: 1050px !important;
+}
+
+.scroll-css {
+    scrollbar-width: thin;
+    overflow-y: scroll;
+    overflow-y: overlay;
+  }
+
+@media screen and (max-width: 1080px) {
+    .container {
+      width: 100vw !important;
+      padding: 0 30px 0 30px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .container {
+      width: 100vw !important;
+      padding: 0 10px 0 10px;
+    }
+}
+
+.navbar_inner_scroll::-webkit-scrollbar{
+  display: none;
+}
+
+p,textarea,input{
+  font-size: 0.9vmax !important;
+}
+h1{
+ font-size: 2.2vmax !important;
+}
+h2{
+  font-size: 1.8vmax !important;
+ }
+ h3{
+  font-size: 1.8vmax !important;
+ }
+ h4{
+  font-size: 1.5vmax !important;
+ }
+ h5{
+  font-size: 1.3vmax !important;
+ }
+ h6{
+  font-size: 1.1vmax !important;
+ }
+
+@media screen and (max-width:800px){
+p,textarea,input{
+    font-size: 1.2vmax !important;
+  }
+  h1{
+    font-size: 2vmax !important;
+   }
+}
+@media screen and (max-width:425px){
+  p,textarea,input{
+    font-size: 1.3vmax !important;
+  }
+  h1{
+    font-size: 3vmax !important;
+   }
+}
+

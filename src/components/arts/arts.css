@@ -1,0 +1,190 @@
+.arts {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.arts .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.arts .container h1 {
+    color: #133d59;
+    font-family: 'Poppins', sans-serif;
+    line-height: 3;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.arts .container p {
+    width: 60%;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #7e7e7e;
+}
+
+.arts .second {
+    margin-top: 80px;
+    width: 100%;
+    border-top: 3px solid #f2b31b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arts .second .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 15px;
+    gap:20px;
+}
+
+.arts .second .container .nav {
+    width: 70%;
+}
+
+.arts .second .container .nav .links {
+    display: flex;
+    gap: 30px;
+    height: 80px;
+}
+
+.arts .second .container .nav .navitem {
+    transform: translateY(-68px);
+}
+
+.arts .second .container .nav .navitem .design h4 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #133d59;
+}
+
+.arts .second .container .nav .navitem .design .desing-top { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arts .second .container .nav .navitem .design .desing-top .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #133d59;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    animation-duration: 0.5s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes changewidth {
+    from {
+        transform: translateY(15px);
+    }
+  
+    to {
+        transform: translateY(-20px);
+    }
+  }
+
+.arts .second .container .nav .navitem .design .desing-top .line {
+    height: 15px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #f2b31b;
+}
+
+.arts .second .container img {
+    width: 30%;
+}
+
+.arts .second .container .nav h5 {
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #133d59;
+    margin-bottom: 10px;
+}
+
+.arts .second .container .nav ul {
+    text-align: left;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.arts .second .container .nav ul li {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 2;
+    color: #7e7e7e;
+}
+
+.arts .second .container .nav ul li::before {
+    content: "\2022";
+    color: #f2b31b;
+    font-weight: bold;
+    width: 16px;
+    display: inline-block; 
+    margin-left: -1em;
+}
+
+@media screen and (max-width: 820px) {
+    .arts .container p {
+        width: 80% !important;
+    }
+    
+    .arts .second .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .arts .second .container .nav {
+        width: 80%;
+    }
+
+    .arts .second .container  {
+        justify-content: center;
+    }
+
+    .arts .second .container .nav .links {
+        justify-content: center;
+    }
+
+    .arts .second .container img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .arts .container p {
+        width: 95% !important;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .arts .second .container .nav {
+        width: 100%;
+    }
+
+    .arts .second .container .nav .links  {
+        justify-content: center;
+    }
+
+    .arts .second .container img {
+        width: 70%;
+    }
+}
